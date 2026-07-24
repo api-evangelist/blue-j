@@ -1,0 +1,12 @@
+generated: '2026-07-18'
+method: searched
+probe: true
+source: https://www.bluej.com/security
+url: https://www.bluej.com/security
+certifications:
+- SOC 2
+evidence:
+- source: https://www.bluej.com/security
+  keywords:
+  - soc 2
+  - trust center

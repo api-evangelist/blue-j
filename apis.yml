@@ -1,8 +1,14 @@
 aid: blue-j
 name: Blue J
-description: 'Blue J is a company surfaced as a portfolio company of sapphire-ventures and added to the
-  API Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Blue J is an AI-powered tax research platform that delivers defensible,
+  source-backed answers to complex tax questions in seconds, drawing on primary law
+  plus Tax Notes and IBFD content. Built for tax professionals, the platform supports
+  advisory, compliance, tax writing, and training workflows, and is trusted by 4,000+
+  firms including Crowe, RSM, and Larson. Blue J is a SaaS product accessed through
+  its web application at app.askbluej.com; it does not currently publish a public
+  developer API, SDK, or MCP server. This profile was surfaced as a portfolio company
+  of Sapphire Ventures and enriched by the API Evangelist pipeline from Blue J''s own
+  public website, security, pricing, and trust-center pages.'
 url: https://raw.githubusercontent.com/api-evangelist/blue-j/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +16,30 @@ x-backed-by:
 - sapphire-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://www.bluej.com/favicon.ico
 tags:
 - Company
 - Ai
+- Tax
+- Legal
+- Research
+- Compliance
+- SaaS
+- Professional Services
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +47,32 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: TrustCenter
+  url: security/blue-j-trust-center.yml
+- type: VulnerabilityDisclosure
+  url: security/blue-j-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/blue-j-domain-security.yml
 - type: Website
   url: https://www.bluej.com/
+- type: Pricing
+  url: https://www.bluej.com/pricing
+- type: Login
+  url: https://app.askbluej.com/
+- type: Security
+  url: https://www.bluej.com/security
+- type: Compliance
+  url: https://app.drata.com/trust/9cbd134e-0c38-11ee-865f-029d78a187d9
+- type: TermsOfService
+  url: https://www.bluej.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.bluej.com/privacy-notice
+- type: Support
+  url: https://www.bluej.com/resources
+- type: Blog
+  url: https://www.bluej.com/resources
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
