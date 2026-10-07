@@ -1,0 +1,36 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://www.bluej.com/pricing
+sources:
+- https://www.bluej.com/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: per-seat
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+  managed_tier: Individual Plan
+published: true
+note: Pricing page for AI tax research product; individual annual per-user price published, team plan
+  negotiated. 7-day free trial, no credit card required.
+plan_count: 2
+currency: USD
+plans:
+- name: Individual Plan
+  price_text: $1,498/year per user
+  price: 1498
+  currency: USD
+  period: year
+  unit: per user
+  included_quota: Full US federal and SALT tax coverage; Unlimited questions, drafting, and file uploads;
+    Unlimited in-line citations and source lists; SOC 2 Type II compliant
+- name: Team Plan
+  price_text: Contact for pricing
+  period: none
+  included_quota: Everything in Individual, plus dedicated customer support, guided onboarding and training,
+    firm-wide usage insights, SSO and custom access controls
