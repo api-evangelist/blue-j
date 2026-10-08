@@ -34,3 +34,26 @@ plans:
   period: none
   included_quota: Everything in Individual, plus dedicated customer support, guided onboarding and training,
     firm-wide usage insights, SSO and custom access controls
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - seat
+  units:
+  - seat
+  plans:
+  - name: Individual Plan
+    access: other
+    model: seat
+    model_how: derived
+    units:
+    - seat
+    periods:
+    - year
+  - name: Team Plan
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods:
+    - none
