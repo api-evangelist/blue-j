@@ -64,6 +64,94 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Blue J is a company surfaced as a portfolio company of sapphire-ventures and added to the API Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment pipeline.
+Blue J is an AI-powered tax research platform that delivers defensible, source-backed answers to complex tax questions in seconds, drawing on primary law plus Tax Notes and IBFD content. Built for tax professionals, the platform supports advisory, compliance, tax writing, and training workflows, and is trusted by 4,000+ firms including Crowe, RSM, and Larson. Blue J is a SaaS product accessed through its web application at app.askbluej.com; it does not currently publish a public developer API, SDK, or MCP server. This profile was surfaced as a portfolio company of Sapphire Ventures and enriched by the API Evangelist pipeline from Blue J's own public website, security, pricing, and trust-center pages.
 
-Backed by: sapphire-ventures — https://www.bluej.com/
+**Areas:** Company · Artificial Intelligence · Tax · Legal · Research · Compliance · Software-as-a-Service · Professional Services
+
+## Blue J on APIs.io
+
+Everything profiled for Blue J is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/blue-j/](https://apis.io/providers/blue-j/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Blue J Domain Security](https://apis.io/security/blue-j/blue-j-domain-security/)
+- [Blue J Trust Center](https://apis.io/security/blue-j/blue-j-trust-center/)
+- [Blue J Vulnerability Disclosure](https://apis.io/security/blue-j/blue-j-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Blue J Plans Pricing](https://apis.io/plans/blue-j/blue-j-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.bluej.com/)
+- [Pricing](https://www.bluej.com/pricing)
+- [Support](https://www.bluej.com/resources)
+- [Blog](https://www.bluej.com/resources)
+- [Security](https://www.bluej.com/security)
+- [Compliance](https://app.drata.com/trust/9cbd134e-0c38-11ee-865f-029d78a187d9)
+- [Terms of service](https://www.bluej.com/terms-of-use)
+- [Privacy policy](https://www.bluej.com/privacy-notice)
+
+## API Evangelist rating
+
+**Kin Score 23.7** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 75.0 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 22.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/blue-j/](https://apis.io/providers/blue-j/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Blue J: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/blue-j/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
